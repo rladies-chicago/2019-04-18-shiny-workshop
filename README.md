@@ -2,10 +2,10 @@
 
 This repository will be updated with more information closer to the date of the event. *However, we ask that you install the following packages before the event*:
 
-- `shiny`
-- `leaflet`
-- `spData`
-- `dplyr`
+- `shiny`: to make a Shiny app
+- `leaflet`: to make interactive maps
+- `spData`: spatial data package that contains the data we'll be working with
+- `dplyr`: for some data wrangling examples
 
 You can do this with the following command in R:
 
