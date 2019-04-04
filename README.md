@@ -15,4 +15,4 @@ install.packages(c("shiny", "leaflet", "spData", "dplyr"))
 
 Optional: you can also register for a free account at [shinyapps.io](https://www.shinyapps.io) ahead of time.
 
-More information and sign up for this workshop on our [Meetup.com event]().
+More information and sign up for this workshop on our [Meetup.com event](https://www.meetup.com/rladies-chicago/events/260316086/).
