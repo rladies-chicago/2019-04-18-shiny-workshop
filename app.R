@@ -7,6 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
+library(sf)
 library(shiny)
 library(leaflet)
 library(spData)
