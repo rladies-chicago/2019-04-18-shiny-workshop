@@ -52,22 +52,22 @@ server <- function(input, output) {
    
    output$map <- renderLeaflet({
      
-     pop_by_year <- filter(urban_agglomerations, 
-                           year == input$year,
-                           population_millions > input$pop_min)
+        # pop_by_year <- filter(urban_agglomerations, 
+        #                       year == input$year,
+        #                       population_millions > input$pop_min)
      
-     leaflet(data = pop_by_year) %>%
+     leaflet(data = urban_agglomerations) %>%
        addTiles() %>%
        addMarkers()
    })
    
    output$table <- renderDataTable({
      
-     pop_by_year <- filter(urban_agglomerations, 
-                           year == input$year,
-                           population_millions > input$pop_min)
+        # pop_by_year <- filter(urban_agglomerations, 
+        #                       year == input$year,
+        #                       population_millions > input$pop_min)
      
-     pop_by_year
+     urban_agglomerations
      
    })
 }
