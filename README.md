@@ -14,7 +14,7 @@ We assume you have RStudio installed on your computer. If you don't have it inst
 
 We ask that you install the following packages before the event:
 
-- **`sf`: to work with spatial data (this is a pain to install, if you are running into issues with installing the "units" package, please arrive early so we can get you set up)**
+- **`sf`: to work with spatial data (this can be a pain to install, if you are running into issues with installing the "units" package, please arrive early so we can get you set up)**
 - `shiny`: to make a Shiny app
 - `leaflet`: to make interactive maps
 - `spData`: spatial data package that contains the data we'll be working with
