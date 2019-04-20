@@ -1,6 +1,18 @@
 # Data Visualization with Maps Shiny Workshop
 
-This repository will be updated with more information closer to the date of the event. *However, we ask that you install the following packages before the event*:
+This repository contains the following:
+
+- intro announcement slides
+- workshop slides
+- code we wrote during the workshop
+
+If you would like to learn more about Shiny, please take a look at RStudio's [free tutorial on Shiny here](https://shiny.rstudio.com/tutorial/), as well as a great webinar [here](https://www.rstudio.com/resources/webinars/introduction-to-shiny/).
+
+## Pre-installation
+
+We assume you have RStudio installed on your computer. If you don't have it installed, please go to [this link](https://www.rstudio.com/) to install it on your computer.
+
+We ask that you install the following packages before the event:
 
 - **`sf`: to work with spatial data (this is a pain to install, if you are running into issues with installing the "units" package, please arrive early so we can get you set up)**
 - `shiny`: to make a Shiny app
@@ -8,7 +20,7 @@ This repository will be updated with more information closer to the date of the 
 - `spData`: spatial data package that contains the data we'll be working with
 - `dplyr`: for some data wrangling examples
 
-You can do this with the following command in R:
+You can do this by pasting the following command into the R console and hitting enter:
 
 ```
 install.packages(c("sf", "shiny", "leaflet", "spData", "dplyr"))
